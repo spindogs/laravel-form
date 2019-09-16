@@ -1,0 +1,14 @@
+{
+    "name": "spindogs/laravel-form",
+    "type": "library",
+    "description": "Helper enabling developers to build an object that auto generates form templating markup",
+    "require": {
+        "php": ">=7.0",
+        "ezyang/htmlpurifier": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spindogs\\Laravel\\Form\\": "src/"
+        }
+    }
+}
